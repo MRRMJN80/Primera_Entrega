@@ -189,6 +189,72 @@ h4{
     font-size: 45px;
 }
 
+.contenedor4{
+    height: 400px;
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    background-color: white;
+}
+
+.fotos{
+    background-color: white;
+}
+
+.fotos_img{
+    margin-top: 40px;
+    width: 80px;
+    height: 60px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.textos_footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: white;
+}
+
+.textos_footer1{
+    color: rgb(165, 156, 156);
+    background-color: white;
+}
+
+.textos_footer2{
+    color: rgb(165, 156, 156);
+    background-color: white;
+}
+
+.textos_footer3{
+    color: rgb(165, 156, 156);
+    background-color: white;
+}
+
+.textos_footer4{
+    color: rgb(165, 156, 156);
+    background-color: white;
+}
+
+h2{
+    background-color: white;
+    color: rgb(165, 156, 156);
+}
+
+.desple{
+    background-color: white;
+    list-style: none;
+    padding: 15px 0 15px 0;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.desple:hover{
+    color: black;
+    transform: translateY(15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
 .patita{
     padding-top: 10px;
     font-size: 1.5rem;
