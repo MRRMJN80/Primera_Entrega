@@ -57,15 +57,18 @@ body{
     padding-bottom: 30px;
 }
 
-.botones{
+.botones{    
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     list-style: none;
     font-size: 1rem;
     cursor: pointer;
     padding: 15px 0 45px 0;
 }
 
+.espacio{
+    padding-right: 30px;
+}
 h1{
     padding-bottom: 45px;
 }
